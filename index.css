@@ -1,0 +1,28 @@
+body {
+    height:300px;
+    width: 300px;
+    padding: 25%;
+}
+header {
+    border: 3px black solid;
+    text-align: center;
+}
+
+ul {
+    border: 3px solid black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    
+}
+li {
+    list-style: none;
+    text-align: center;
+    height: 25%;
+    border: 1px solid black;
+}
+li:hover {
+    background-color: gray;
+}
